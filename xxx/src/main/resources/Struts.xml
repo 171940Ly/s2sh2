@@ -1,0 +1,11 @@
+
+<struts>
+
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="sayHi" class="cap.action.HelloWordAction">
+            <result name="success">/result.jsp</result>
+        </action>
+
+    </package>
+
+</struts>
